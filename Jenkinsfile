@@ -1,10 +1,11 @@
 pipeline {
 	agent any
 	stages {
-
+		
 		stage('Linting the HTML file') {
 			steps {
-				sh 'tidy -q -e *.html'
+				sh 'tidy -q -e index.html'
+				sh 'hadolint Dockerfile'
 			}
 		}
 		
