@@ -1,6 +1,6 @@
 SETTING UP THE PRE-REQUISITE OPERATIONAL REQUIREMENTS
 
-ECT Machine with Jenkins Preinstalled with AWS Plugin and all the Tools required from Previous exercise
+EC2 Machine with Jenkins Preinstalled with AWS Plugin and all the Tools required from Previous exercise
 DOCKERS & GIT Installled
 TIDY Installed for HTML Validation
 installed AWS CLI
