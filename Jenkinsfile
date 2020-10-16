@@ -1,9 +1,4 @@
 pipeline {
-
- environment {
-    registry = "jyotirevo/capstone"
-    registryCredential = 'dockerhub'
-  }
         agent any
         stages {
 
@@ -37,7 +32,7 @@ pipeline {
 			steps {
 				withAWS(region:'us-west-2', credentials:'TestID') {
 					sh '''
-						kubectl config use-context arn:aws:eks:us-west-2:692013865514:cluster/CapKubeClusterMst
+						kubectl config use-context arn:aws:eks:us-west-2:692013865514:cluster/CapKubeClust
 					'''
 				}
 			}
